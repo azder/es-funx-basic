@@ -1,0 +1,24 @@
+{
+  "name": "es-funx-basic",
+  "homepage": "https://github.com/azder/es-funx-basic",
+  "authors": [
+    "azder <azhder@gmail.com>"
+  ],
+  "description": "presentation made in remark",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "nodejs",
+    "ecmascript",
+    "es6",
+    "es2015",
+    "functional",
+    "functional",
+    "programming"
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "remark": "^0.13.0"
+  }
+}

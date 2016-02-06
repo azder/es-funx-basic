@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+    font-family: 'Droid Serif', serif;
+}
+
+h2, h3 {
+    font-family: 'Yanone Kaffeesatz', serif;
+    font-weight: normal;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+    color:           #80BD01;
+    text-decoration: none;
+}
+
+h2 {
+    color:         #993333; /*#80BD01;*/
+    text-shadow:   1px 1px 1px #333333;
+    border-bottom: 1px solid #993333;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content:        "\2665";
+    color:          #993333;
+    margin-right:   0.5em;
+    font-size:      0.5em;
+    vertical-align: middle;
+}
+
+.console + pre > .remark-code, .remark-code.bash {
+    background: #333333 !important;
+    margin:     10px;
+}
+
+.console + pre > .remark-code *, .remark-code.bash * {
+    color:       whitesmoke !important;
+    background:  #333333 !important;
+    font-weight: inherit;
+}
+
+.remark-code.bash .remark-code-line.remark-code-line-highlighted,
+.remark-code.bash .remark-code-line.remark-code-line-highlighted * {
+    color: #80BD01 !important;
+}
+
+.hljs-string {
+    font-weight: normal !important;
+}
+
+.warncaps {
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+.medium {
+    font-size: smaller;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.aside {
+    margin-left: 4em;
+}
+
+.remark-inline-code {
+    background-color: #F3F3F3;
+}
+
+ul li > p {
+    display: inline;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.pad {
+    padding: 15px;
+}
+
+.highlight-js {
+    background: rgba(247, 223, 30, 0.5);
+}
+
+.background-black {
+    background-color: black;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+
+.color-light {
+    color: #F3F3F3;
+}
+
+.bgcolor-light, .remark-code.javascript {
+    background-color: #F3F3F3;
+}
+
+.color-lighter {
+    color: #999999;
+}
+
+.bgcolor-lighter {
+    background-color: #999999;
+}
+
+.color-heart {
+    color: #993333;
+}
+
+.bgcolor-heart {
+    background-color: #993333;
+}
+
+.color-dark {
+    color: black;
+}
+
+.bgcolor-dark {
+    background-color: black;
+}
+
+.color-node {
+    color: #80BD01;
+}
+
+.bgcolor-node {
+    background-color: #80BD01;
+}
+
+.color-ecma {
+    color: #FF6600;
+}
+
+.bgcolor-ecma {
+    background-color: #FF6600;
+}
+
+.color-js {
+    color: #F7DF1E;
+}
+
+.bgcolor-js {
+    background-color: #F7DF1E;
+}
