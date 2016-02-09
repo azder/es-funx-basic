@@ -16,14 +16,24 @@ h2, h3 {
 }
 
 a {
-    color:           #80BD01;
+    color:           #000000;
     text-decoration: none;
+    text-shadow:     1px 1px 2px #FBB040;
+}
+
+h1 {
+    text-transform: capitalize;
+    color:          #000000;
+    text-shadow:    1px 1px 4px #FBB040;
 }
 
 h2 {
-    color:         #993333; /*#80BD01;*/
-    text-shadow:   1px 1px 1px #333333;
-    border-bottom: 1px solid #993333;
+    text-transform: capitalize;
+    display:        inline-block;
+    text-align:     center;
+    color:          #FBB040;
+    text-shadow:    1px 1px 2px #000000;
+    border-bottom:  1px solid #FBB040;
 }
 
 h3 {
@@ -35,11 +45,46 @@ ul {
 }
 
 ul li:before {
-    content:        "\2665";
-    color:          #993333;
-    margin-right:   0.5em;
-    font-size:      0.5em;
+    content:     '\25A0';
+    padding:     10px;
+    color:       #000000;
+    text-shadow: 1px 1px 4px #FBB040, -1px -1px 4px #FBB040;
+}
+
+ul li li:before {
+    text-shadow: none;
+}
+
+ul li li {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+ul li > p {
+    display: inline;
+}
+
+li {
+    margin-bottom: 2.0em;
+}
+
+small, aside, .small {
+    color:     grey;
+    font-size: 75%;
+}
+
+.remark-slide-content {
+    text-align: center;
+}
+
+.remark-slide-content * {
+    text-align: initial;
+}
+
+.remark-slide-content h1, .remark-slide-content .title, .title {
+    text-align:     center;
     vertical-align: middle;
+    display:        block;
 }
 
 .console + pre > .remark-code, .remark-code.bash {
@@ -64,15 +109,7 @@ ul li:before {
 
 .warncaps {
     font-variant: small-caps;
-    font-size: larger;
-}
-
-.medium {
-    font-size: smaller;
-}
-
-.smaller {
-    font-size: smaller;
+    font-size:    larger;
 }
 
 .aside {
@@ -83,82 +120,46 @@ ul li:before {
     background-color: #F3F3F3;
 }
 
-ul li > p {
-    display: inline;
-}
-
-li {
-    margin-bottom: 0.5em;
-}
-
 .pad {
     padding: 15px;
 }
 
 .highlight-js {
-    background: rgba(247, 223, 30, 0.5);
-}
-
-.background-black {
-    background-color: black;
-}
-
-.border-black {
-    border: 1px solid black;
+    background: #FBB040 /*rgba(247, 223, 30, 0.5)*/;
 }
 
 .color-light {
-    color: #F3F3F3;
+    color: #FFFFFF;
 }
 
 .bgcolor-light, .remark-code.javascript {
-    background-color: #F3F3F3;
-}
-
-.color-lighter {
-    color: #999999;
-}
-
-.bgcolor-lighter {
-    background-color: #999999;
-}
-
-.color-heart {
-    color: #993333;
-}
-
-.bgcolor-heart {
-    background-color: #993333;
+    background-color: #FFFFFF;
 }
 
 .color-dark {
-    color: black;
+    color: #000000;
 }
 
 .bgcolor-dark {
-    background-color: black;
-}
-
-.color-node {
-    color: #80BD01;
-}
-
-.bgcolor-node {
-    background-color: #80BD01;
-}
-
-.color-ecma {
-    color: #FF6600;
-}
-
-.bgcolor-ecma {
-    background-color: #FF6600;
+    background-color: #000000;
 }
 
 .color-js {
-    color: #F7DF1E;
+    color: #FBB040;
 }
 
 .bgcolor-js {
-    background-color: #F7DF1E;
+    background-color: #FBB040;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
 }

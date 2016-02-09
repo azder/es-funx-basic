@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -e
+
+README="$(cat README.md)"
+README="${README//"$PREVIOUS_VERSION/ramda.min.js"/"$VERSION/ramda.min.js"}"
+README="${README//"${PREVIOUS_VERSION%.*}/ramda.min.js"/"${VERSION%.*}/ramda.min.js"}"
+echo "$README" >README.md
+git add README.md
+
+for filename in $(find src -depth 1 -name "*.js" | xargs grep --files-without-match "@since v") ; do
+  sed -i "" $'s/@memberOf R/@memberOf R\\\n * @since '"$VERSION/" $filename
+  git add $filename
+done
+
+rm -f dist/ramda{,.min}.js
+make dist/ramda{,.min}.js
+git add dist/ramda{,.min}.js
+
+npm run bookmarklet
+git add BOOKMARKLET.md

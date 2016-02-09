@@ -7,9 +7,15 @@
 
     'use strict'; // ALWAYS
 
-    W.slideshow = W.remark.create({
+    var config = {
 
-        ratio: '16:9',
+        // Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects
+        // to the end user's experience. For more help http://xhr.spec.whatwg.org/
+
+        // this one causes a synchronous ajax
+        // sourceUrl: 'presentation.md',
+
+        ratio: '16:10',
 
         navigation: {
             scroll: false,
@@ -25,6 +31,17 @@
         highlightStyle:         'idea',
         highlightLines:         true,
         highlightSpans:         false
+
+    };
+
+    // workaround for syncronous script loading
+
+    jQuery(function onLoad($) {
+
+        $.get('README.md').then(function then(data) {
+            $('#source').html(data);
+            W.slideshow = W.remark.create(config);
+        });
 
     });
 
