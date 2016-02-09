@@ -1,5 +1,7 @@
 
-.center[<img alt="Front-End Skopje Meetup Logo" src="front-end-meetup-logo.svg" width="128" height="128" />]
+<div class="center" >
+<img  alt="Front-End Skopje Meetup Logo" src="front-end-meetup-logo-128.png" width="128" height="128" />
+</div>
 
 # FP & ES
 
