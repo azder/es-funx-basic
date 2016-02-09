@@ -5,17 +5,17 @@
 
 # FP & ES
 
-.center.small.pad[beggining with functional style programming in ES2015]
+<p class="center small pad">beggining with functional style programming in ES2015</p>
 
 
-.center.pad[Goran Peoski ([@azder](https://twitter.com/azder))]
+<p class="center pad" > Goran Peoski ([@azder](https://twitter.com/azder))</p>
 
 <br /><br /><br />
 
 
-.right.small.pad[
-online: [azder.github.io/es-funx-basic](https://azder.github.io/es-funx-basic/) 
-]
+<div class="right small pad">
+online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx-basic</a>
+</div>
 
 
 
@@ -190,6 +190,12 @@ online: [azder.github.io/es-funx-basic](https://azder.github.io/es-funx-basic/)
 .center.middle[
 <iframe src="demo/index.html" width="720px" height="320px" />
 ]
+
+---
+
+## The End
+
+Thanks for sticking around until the very end :)
         
 ???
         
