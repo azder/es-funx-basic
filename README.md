@@ -8,7 +8,7 @@
 <p class="center small pad">beggining with functional style programming in ES2015</p>
 
 
-<p class="center pad" > Goran Peoski ([@azder](https://twitter.com/azder))</p>
+<p class="center pad" > Goran Peoski (<a href="https://twitter.com/azder">@azder</a>)</p>
 
 <br /><br /><br />
 
