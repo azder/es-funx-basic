@@ -34,21 +34,21 @@ online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx
 
 <br /> <br />
 
-.center[<cite>was the keyword</cite>]
+<span class="center" ><cite>was the keyword</cite></span>
 
 <br />
 
-.center[<cite>and the keyword was with problem</cite>]
+<span class="center" ><cite>and the keyword was with problem</cite></span>
 
 <br />
 
-.center[<cite>and problem was the keyword</cite>]
+<span class="center" ><cite>and problem was the keyword</cite></span>
 
 ---
 
 ## GOTO
 
-.center[![](images/goto-program-01.gif)]
+<span class="center" >![](images/goto-program-01.gif)</span>
 
 ---
 
@@ -63,17 +63,17 @@ online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx
 
 ## The structured way
 
-.center[<img src="images/the-structured-way-01.png" width="350" height="500" />]
+<span class="center" ><img src="images/the-structured-way-01.png" width="350" height="500" /></span>
 
 ---
 
 
 ## The ( lil' bit mo') Functional way
 
-.center[
+<div class="center" >
 <img src="images/the-more-functional-way-01.png" width="350" height="500" />
 <img src="images/the-more-functional-way-02.png" width="350" height="500" />
-]
+</div>
 
 ---
 
@@ -111,7 +111,7 @@ online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx
 
 ## Identify Symptoms
 
-- Custom names: <br />
+- Custom names:
   - `let nextAreaStartsAt = 0;`
   
 - Looping patterns: 
@@ -128,16 +128,16 @@ online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx
 ## Then Separate concerns 
 
 - discover hidden inputs
-.pad.flex[
+<div class="pad flex" >
 <img class="inline" src="images/env-inputs-01.png" width="362px" height="126px"  />
 <img class="inline" src="images/env-inputs-02.png" width="530px" height="47px"   />
-]
+</div>
 
-- separate mutation from calculation (examples/mutation)
-.pad.flex[
+- separate mutation from calculation
+<div class="pad flex" >
 <img class="inline" src="images/mutation-calculation-01.png" width="659px" height="123px"  />
 <img class="inline" src="images/mutation-calculation-02.png" width="404px" height="136px"   />
-]
+</div>
 
 - combine calculations into pipeline, then do the mutation
 
@@ -185,11 +185,15 @@ online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx
    
 ## Demo
   
-.center.small[[here](demo/index.html)]
+<span class="center small" >
+<a href="demo/index.html" target="_blank" >in new tab</a>
+|
+<a href="https://github.com/azder/es-funx-basic/tree/master/demo" target="_blank" >source code</a>
+</span>
    
-.center.middle[
-<iframe src="demo/index.html" width="720px" height="320px" />
-]
+<div class="center middle" >
+<iframe src="demo/index.html" width="720px" height="320px" ></iframe>
+</div>
 
 ---
 
