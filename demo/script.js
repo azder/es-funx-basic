@@ -122,7 +122,7 @@ jQuery($ => {
 
     const total = compose(c => `<p> count: ${c}</p>`, len);
 
-    const $el = (() => {
+    const $el = (() => { // this can be refactored into a class
         const $ol = $('<ol></ol>');
         return {
             insertAfter$: selector => $ol.insertAfter(selector),
