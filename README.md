@@ -13,10 +13,13 @@
 <br /><br /><br />
 
 
-<div class="right small pad">
+<div class="right small pad" >
+<table class="inline-table" ><tr><td>
 online: <a href="https://azder.github.io/es-funx-basic/">azder.github.io/es-funx-basic</a>
+</tr><tr><td>
+source: <a href="https://github.com/azder/es-funx-basic/">github.com/azder/es-funx-basic</a>
+</td></tr></table>
 </div>
-
 
 
 

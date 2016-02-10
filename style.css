@@ -56,7 +56,7 @@ ul li li:before {
 }
 
 ul li li {
-    margin-top: 0.25em;
+    margin-top:    0.25em;
     margin-bottom: 0.5em;
 }
 
@@ -150,6 +150,10 @@ small, aside, .small {
 
 .bgcolor-js {
     background-color: #FBB040;
+}
+
+.inline-table {
+    display: inline-table;
 }
 
 .inline-block {
