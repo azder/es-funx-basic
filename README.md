@@ -5,7 +5,7 @@
 
 # FP & ES
 
-<p class="center small pad">beggining with functional style programming in ES2015</p>
+<p class="center small pad">beginning with functional style programming in ES2015</p>
 
 
 <p class="center pad" > Goran Peoski (<a href="https://twitter.com/azder">@azder</a>)</p>
